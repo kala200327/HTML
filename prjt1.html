@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea Shop</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fff8f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar {
+      background-color: #ff7f50;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1606788075761-0c9377f3ed93?auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .menu-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .menu-img:hover {
+      transform: scale(1.05);
+    }
+    .section-title {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-weight: bold;
+      color: #ff6347;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tea Paradise</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to Tea Paradise</h1>
+      <p class="lead">Sip the best tea, relax, and enjoy!</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="container my-5">
+    <h2 class="section-title">Our Special Tea Menu</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1604908177522-934ab1f9b9aa?auto=format&fit=crop&w=800&q=80" alt="Green Tea" class="menu-img">
+        <h5 class="mt-2 text-center">Green Tea</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1590080878239-b1c56f7f3d77?auto=format&fit=crop&w=800&q=80" alt="Herbal Tea" class="menu-img">
+        <h5 class="mt-2 text-center">Herbal Tea</h5>
+      </div>
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1603508511032-1c55a52c74a4?auto=format&fit=crop&w=800&q=80" alt="Chai Tea" class="menu-img">
+        <h5 class="mt-2 text-center">Chai Tea</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="container my-5">
+    <h2 class="section-title">About Us</h2>
+    <p class="text-center">Tea Paradise is your cozy corner for the best tea experiences. We select only the finest leaves and brew every cup with love. Relax, sip, and enjoy our peaceful ambiance!</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    &copy; 2025 Tea Paradise | All rights reserved
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html><br><br>
